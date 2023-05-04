@@ -46,7 +46,7 @@
         <aside>
           <div class="content-description-biodata">
             <div class="in-biodata">
-              <img src="syifa.jpeg" alt="biodata-picture" />
+              <img src="https://storage.cloud.google.com/syifa-hacks.appspot.com/syifa.jpeg" alt="biodata-picture" style="width:350px;height:300px;" />
               <table>
                 <tr>
                   <th>Name :</th>
