@@ -1,0 +1,12 @@
+runtime: php55
+
+handlers:
+  - url: /styles
+    static_dir: styles
+
+  - url: /images/(.*\.(https://storage.cloud.google.com/my-project-nurrapi-385700.appspot.com/fotodiri%20(2).jpeg?authuser=2))
+    static_files: images/\1
+    upload: /images/(.*\.(https://storage.cloud.google.com/my-project-nurrapi-385700.appspot.com/fotodiri%20(2).jpeg?authuser=2))
+
+  - url: /.*
+    script: index.php
